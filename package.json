@@ -3,19 +3,18 @@
   "version": "0.0.1",
   "description": "Base class for metismenu.",
   "type": "module",
-  "exports": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
   "engines": {
     "node": ">=14.16"
   },
   "scripts": {
-    "tsc:esm": "tsc -p tsconfig.json",
-    "tsc:type": "tsc -p tsconfig.json -d --emitDeclarationOnly",
-    "build": "npm run tsc:esm && npm run tsc:type"
+    "tsc": "tsc -p tsconfig.json"
   },
   "files": [
-    "dist",
-    "src"
+    "src",
+    "index.js",
+    "index.d.ts"
   ],
   "repository": "onokumus/mmbase",
   "keywords": [],
