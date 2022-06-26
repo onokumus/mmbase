@@ -12,12 +12,16 @@
     "tsc": "tsc -p tsconfig.json"
   },
   "files": [
-    "src",
-    "index.js",
-    "index.d.ts"
+    "dist"
   ],
   "repository": "onokumus/mmbase",
-  "keywords": [],
+  "keywords": [
+    "base",
+    "class",
+    "emit",
+    "event",
+    "listener"
+  ],
   "author": "Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)",
   "license": "GPL-3.0",
   "bugs": {

@@ -18,7 +18,7 @@
     "skipLibCheck": true,
     "moduleResolution": "Node16",
     "newLine": "lf",
-    "outDir": "."
+    "outDir": "dist"
   },
   "include": ["src"],
   "exclude": ["node_modules"]
