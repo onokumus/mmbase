@@ -1,11 +1,7 @@
 export class MMBase {
+    root;
     constructor(root) {
-        Object.defineProperty(this, "root", {
-            enumerable: true,
-            configurable: true,
-            writable: true,
-            value: root
-        });
+        this.root = root;
     }
     on(evt, handler, options) {
         this.root.addEventListener(evt, handler, options);
